@@ -1,0 +1,161 @@
+[33mcommit e2a9b06051281d35b7a2f446d22b9860f99e6fa3[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: snownevo <manuematheus27@hotmail.com>
+Date:   Sat May 9 21:20:13 2020 -0300
+
+    nome
+
+[33mcommit c8bb66fb7b1d952378d45634371357a4a8c60d88[m
+Author: snownevo <manuematheus27@hotmail.com>
+Date:   Sat May 9 13:09:45 2020 -0300
+
+    Criando pagina de produtos
+
+[33mcommit 6d43aab96c86ae4bf1d322b4b7a0dc482cb7fd33[m
+Author: snownevo <manuematheus27@hotmail.com>
+Date:   Sat May 9 09:54:10 2020 -0300
+
+    Salvando novo cliente
+
+[33mcommit ff016f44623c7e51a49e55ceb4b52fb9f3bbc453[m
+Author: snownevo <manuematheus27@hotmail.com>
+Date:   Fri May 8 11:47:07 2020 -0300
+
+    Mostrando erros de validação
+
+[33mcommit 67b7d184b68eb1c3869e5b6910284da7362a4698[m
+Author: snownevo <manuematheus27@hotmail.com>
+Date:   Fri May 8 10:34:40 2020 -0300
+
+    Povoando dinamicamente estado e cidade
+
+[33mcommit 33071ea198f404d9bf54f31a8a5666b8c11460b0[m
+Author: snownevo <manuematheus27@hotmail.com>
+Date:   Fri May 8 08:31:49 2020 -0300
+
+    Criando um FormGroup para controlar o formulario
+
+[33mcommit 5ba8ef99ee2568d42f9e6241a975f3221d21ee9b[m
+Author: snownevo <manuematheus27@hotmail.com>
+Date:   Thu May 7 03:29:03 2020 -0300
+
+    Criando pagina de Signup
+
+[33mcommit 194ab316861c699e90d01ded91c804344dce5646[m
+Author: snownevo <manuematheus27@hotmail.com>
+Date:   Thu May 7 02:28:52 2020 -0300
+
+    Botao de logout no menu
+
+[33mcommit e4d8ae98ded11a6800eff86b243f5639f3812a19[m
+Author: snownevo <manuematheus27@hotmail.com>
+Date:   Thu May 7 00:07:05 2020 -0300
+
+    Fazendo o app aproveitar o usuario logado na tela inicial
+
+[33mcommit 6d38e67e088aed57b42201ff4f6fe1c83bdd8de1[m
+Author: snownevo <manuematheus27@hotmail.com>
+Date:   Wed May 6 23:55:19 2020 -0300
+
+    Tratamento padrao para outros errors com Alert
+
+[33mcommit a37bc3abf716605ed3efeb899ac8d57ce1d05156[m
+Author: snownevo <manuematheus27@hotmail.com>
+Date:   Wed May 6 23:20:00 2020 -0300
+
+    Tratando erros 403
+
+[33mcommit 8cedd4a66d2f87e18d62d00a4fa0f3f531a01890[m
+Author: snownevo <manuematheus27@hotmail.com>
+Date:   Wed May 6 21:41:07 2020 -0300
+
+    Interceptor para incluir token nas requisicoes
+
+[33mcommit 300a034b21dff0457ef535f43d0e07a4f4bb31ba[m
+Author: snownevo <manuematheus27@hotmail.com>
+Date:   Wed May 6 01:59:40 2020 -0300
+
+    Monstrando dados e imagem do cliente para a pagina de profile
+
+[33mcommit 9b7db77936a7dca823d4697629666f5ccbf8d1a0[m
+Author: snownevo <manuematheus27@hotmail.com>
+Date:   Tue May 5 21:37:23 2020 -0300
+
+    Criando uma pagina de profile
+
+[33mcommit d0f1b751460936315b5b9335de21036a277ce204[m
+Author: snownevo <manuematheus27@hotmail.com>
+Date:   Tue May 5 21:05:47 2020 -0300
+
+    Extraindo o email do token e armazenando-o em localStorage
+
+[33mcommit 51552f9df490a0a7536e5906d2d363fd32157d0d[m
+Author: snownevo <manuematheus27@hotmail.com>
+Date:   Fri May 1 20:17:03 2020 -0300
+
+    Salvando os dados do usuario logado no localStorage
+
+[33mcommit 68565394f20419066e98ae43ca82b270b71000a5[m
+Author: snownevo <manuematheus27@hotmail.com>
+Date:   Fri May 1 11:43:42 2020 -0300
+
+    Comecando a implementar a autenticacao
+
+[33mcommit 90d5ca92da12f2ddf1b8ab1e0d0b978a1b071afc[m
+Author: snownevo <manuematheus27@hotmail.com>
+Date:   Fri May 1 10:38:19 2020 -0300
+
+    Obtendo os dados do formulario de login
+
+[33mcommit 3a734b5376b5b26c82408ba675a7b3bf681a883b[m
+Author: snownevo <manuematheus27@hotmail.com>
+Date:   Fri May 1 09:54:25 2020 -0300
+
+    Criando um interceptor para tratamento de erros
+
+[33mcommit 1d680f9f635adf6f8502bfdbdf98c3946ec9fef7[m
+Author: snownevo <manuematheus27@hotmail.com>
+Date:   Sun Apr 26 01:12:21 2020 -0300
+
+    mostrando as categorias
+
+[33mcommit 763081a8aafc621e1001d5ff0f85abb14ca43966[m
+Author: snownevo <manuematheus27@hotmail.com>
+Date:   Sat Apr 25 21:38:35 2020 -0300
+
+    Listando categorias
+
+[33mcommit fff6edd1d381f0cbefa101cdd48a602a438f8a15[m
+Author: snownevo <manuematheus27@hotmail.com>
+Date:   Sat Apr 25 09:29:09 2020 -0300
+
+    Desabilitar menu na tela inicial
+
+[33mcommit 2365e3a188b8825bed96e815b479c7742d7aac7c[m
+Author: snownevo <manuematheus27@hotmail.com>
+Date:   Sat Apr 25 08:32:27 2020 -0300
+
+    Navegacao
+
+[33mcommit 7844e574026642ec6f2760016e555049f62bcbe2[m
+Author: snownevo <manuematheus27@hotmail.com>
+Date:   Thu Apr 23 18:42:29 2020 -0300
+
+    tela inicial
+
+[33mcommit 71d7efd4c90145fa603c7faad7a93ddce8ad16d7[m
+Author: snownevo <manuematheus27@hotmail.com>
+Date:   Thu Apr 23 15:22:34 2020 -0300
+
+    Lazy loading
+
+[33mcommit 130facd8040a76fb8ea9aa76fb4a488c7053d9e1[m
+Author: snownevo <manuematheus27@hotmail.com>
+Date:   Wed Apr 22 23:58:03 2020 -0300
+
+    Apagando Pagina List
+
+[33mcommit 60ac41141ce7b057d96a30d1a8862162d11ef940[m
+Author: snownevo <manuematheus27@hotmail.com>
+Date:   Wed Apr 22 22:58:07 2020 -0300
+
+    first commit
