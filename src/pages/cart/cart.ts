@@ -61,6 +61,10 @@ goOn(){
   this.navCtrl.setRoot('CategoriasPage');
 }
 
+chekout(){
+  this.navCtrl.setRoot('PickAddressPage');
+}
+
 }
 
 
