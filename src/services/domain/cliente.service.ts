@@ -8,8 +8,12 @@ import { StorageService } from "../storage.services";
 export class ClienteService {
     constructor(public http: HttpClient, public storage: StorageService) {
     }
+   
     findByEmail(email: string) {
         return this.http.get(`${API_CONFIG.baseUrl}/clientes/email?value=${email}`);
+    }
+    findById(id: string) {
+        return this.http.get(`${API_CONFIG.baseUrl}/clientes/${id}`);
     }
     getImageFromBucket(id: string): Observable<any> {
         let url = `${API_CONFIG.bucketBaseUrl}/cp${id}.jpg`
