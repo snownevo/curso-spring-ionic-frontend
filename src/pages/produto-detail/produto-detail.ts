@@ -22,6 +22,10 @@ export class ProdutoDetailPage {
   }
 
   ionViewDidLoad() {
+   this.loadDate();
+  }
+
+  loadDate(){
     let produto_id = this.navParams.get('produto_id');
     let loader = this.presentLoading();
     this.produtoService.findById(produto_id)
@@ -31,6 +35,7 @@ export class ProdutoDetailPage {
       this.getImageUrlIfExists();
     },
     error => { loader.dismiss();});
+
   }
   
   getImageUrlIfExists(){
@@ -53,6 +58,13 @@ export class ProdutoDetailPage {
     });
     loader.present();
     return loader;
+  }
+
+  doRefresh(refresher) {
+    this.loadDate();
+    setTimeout(() => {
+      refresher.complete();
+    }, 1000);
   }
 
 }

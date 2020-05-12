@@ -30,6 +30,12 @@ items: CategoriaDTO[];
   }
 
   ionViewDidLoad() {
+   this.loadDate();
+    
+    
+  }
+
+  loadDate(){
     let loader = this.presentLoading();
     this.categoriaService.findAll()
     .subscribe(response => {
@@ -37,8 +43,6 @@ items: CategoriaDTO[];
       this.items=response;
     },
     error => {loader.dismiss();});
-    
-    
   }
 
   showProdutos(categoria_id: string){
@@ -52,6 +56,13 @@ items: CategoriaDTO[];
     });
     loader.present();
     return loader;
+  }
+
+  doRefresh(refresher) {
+    this.loadDate();
+    setTimeout(() => {
+      refresher.complete();
+    }, 1000);
   }
 
 }
