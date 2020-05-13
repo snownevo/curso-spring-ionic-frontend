@@ -32,7 +32,6 @@ items: CategoriaDTO[];
   ionViewDidLoad() {
    this.loadDate();
     
-    
   }
 
   loadDate(){
@@ -44,6 +43,7 @@ items: CategoriaDTO[];
     },
     error => {loader.dismiss();});
   }
+
 
   showProdutos(categoria_id: string){
     this.navCtrl.push('ProdutosPage', {categoria_id: categoria_id});
@@ -65,6 +65,7 @@ items: CategoriaDTO[];
     }, 1000);
   }
 
+  
 }
 
 
