@@ -35,8 +35,7 @@ export class ProdutosPage {
         this.items = this.items.concat(response['content']);
         let end = this.items.length -1;
         loader.dismiss();
-        console.log(this.page);
-        console.log(this.items);
+
         this.loadImagesUrls(start, end);
       },
       error => {

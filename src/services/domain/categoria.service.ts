@@ -13,6 +13,9 @@ export class CategoriaService{
     findAll(): Observable<CategoriaDTO[]>{
         return this.http.get<CategoriaDTO[]>(`${API_CONFIG.baseUrl}/categorias`);
     }
-
+    
+    findPage(page: number = 0, linesPerPage: number = 24) : Observable<CategoriaDTO[]>{
+        return this.http.get<CategoriaDTO[]>(`${API_CONFIG.baseUrl}/categorias/page?page=${page}&linesPerPage=${linesPerPage}`);
+    }
 
 }

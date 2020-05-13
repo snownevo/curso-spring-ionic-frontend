@@ -20,7 +20,8 @@ export class CategoriasPage {
 
 bucketUrl: string = API_CONFIG.bucketBaseUrl;  
 
-items: CategoriaDTO[];
+page: number = 0;
+items: CategoriaDTO[]=[];
 
   constructor(
     public navCtrl: NavController, 
@@ -36,10 +37,14 @@ items: CategoriaDTO[];
 
   loadDate(){
     let loader = this.presentLoading();
-    this.categoriaService.findAll()
-    .subscribe(response => {
-      loader.dismiss();
-      this.items=response;
+    this.categoriaService.findPage(this.page, 5)
+      .subscribe(response => {
+        let stasrt = this.items.length;
+        this.items = this.items.concat(response['content']);
+        let end = this.items.length - 1;
+        loader.dismiss();
+        console.log(this.page);
+        console.log(this.items);
     },
     error => {loader.dismiss();});
   }
@@ -59,12 +64,21 @@ items: CategoriaDTO[];
   }
 
   doRefresh(refresher) {
+    this.page=0;
+    this.items=[];
     this.loadDate();
     setTimeout(() => {
       refresher.complete();
     }, 1000);
   }
 
+  doInfinite(infiniteScroll) {
+    this.page++;
+    this.loadDate();
+    setTimeout(() => {
+      infiniteScroll.complete();
+    }, 1000);
+  }
   
 }
 
