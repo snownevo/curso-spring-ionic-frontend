@@ -23,7 +23,9 @@
       <img [src]="picture">
     </ion-item>
     <ion-item>
-      <button ion-button round block (click)="getCameraPicture()" [disabled]="cameraOn">Camera</button>
+      <button ion-button round block (click)="getCameraPicture()" [disabled]="cameraOn">Câmera</button>
+      <button *ngIf="picture" ion-button round outline block (click)="sendPicture()">Confirmar</button>
+      <button *ngIf="picture" ion-button round outline block (click)="cancel()">Cancelar</button>
     </ion-item>
   </ion-card>  
 
